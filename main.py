@@ -313,5 +313,5 @@ def contact_page():
                            year=current_year, this_user=current_user)
 
 
-if __name__ == '__main__':
-    app.run(debug=True)
+# if __name__ == '__main__':
+#     app.run(debug=True)
