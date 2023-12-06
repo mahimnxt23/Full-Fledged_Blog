@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "repl-nix-full-fledgedblog"
+version = "0.1.0"
+description = ""
+authors = ["Replit user <<>>"]
+readme = "README.md"
+packages = [{include = "repl_nix_full_fledgedblog"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "^3.0.0"
+flask-bootstrap = "^3.3.7.1"
+flask-ckeditor = "^0.5.1"
+flask-wtf = "^1.2.1"
+flask-login = "^0.6.3"
+sqlalchemy = "^2.0.23"
+werkzeug = "^3.0.1"
+flask-sqlalchemy = "^3.1.1"
+redberry = "^0.0.7.15"
+flask-gravatar = "^0.5.0"
+wtforms = "^3.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
